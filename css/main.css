@@ -1,0 +1,37 @@
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+#msm {
+  bottom: 15%;
+  z-index: -10;
+  position: absolute;
+  -webkit-animation: linear normal alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+#backMsm {
+  bottom: 15%;
+  z-index: -10;
+  position: absolute;
+  -webkit-animation: linear normal alternate;
+  -webkit-animation-name: backRun;
+  -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes backRun {
+  0% {
+    left: 110%;
+  }
+  100% {
+    left: -50%;
+  }
+}
